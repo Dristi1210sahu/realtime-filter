@@ -1,0 +1,27 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color:greenyellow;
+}
+
+canvas{
+
+    animation-name:my ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my {
+
+   0%{box-shadow:1px 1px 38px violet;}
+    25%{box-shadow:1px 1px 38px yellow;}
+    50%{box-shadow:1px 1px 38px green;}
+    100%{box-shadow:1px 1px 38px blue;}
+}
+
+body{
+    background-position: center;
+    background-size:cover;
+}
